@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Responsive Header Nav</title>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="images/logo.svg" width=50 alt="logo">News24</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Products</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <!-- slider container -->
+            <div class="slider-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="slides fade">
+                    <img src="images/slide1.jpg" style="width:100%">
+                    <div class="text">
+                        <h1>Avani To Host UB Students</h1>
+                        <p>Get in touch with Gaborone your way. Explore the city. Live it up at the casino. Sweat it out
+                            over a game of tennis or squash. </p>
+                    </div>
+
+                </div>
+
+                <div class="slides fade">
+                    <img src="images/slide2.jpg" style="width:100%">
+                    <div class="text">
+                        <h1>Our Botswana Our Pride</h1>
+                        <p>landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal
+                            habitat during the seasonal floods. </p>
+                    </div>
+                </div>
+
+                <div class="slides fade">
+                    <img src="images/slide3.jpg" style="width:100%">
+                    <div class="text">
+                        <h1>Tech Park Ga E Fele?</h1>
+                        <p>landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal
+                            habitat during the seasonal floods. </p>
+                    </div>
+                </div>
+
+                <!-- forward and back buttons -->
+                <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The bullets/circles -->
+            <div style="text-align:center">
+                <span class="bullet" onclick="currentSlide(1)"></span>
+                <span class="bullet" onclick="currentSlide(2)"></span>
+                <span class="bullet" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+    </main>
+    <script src="javascript/slides.js"></script>
+</body>
+
+</html>
