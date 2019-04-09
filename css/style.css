@@ -230,3 +230,25 @@ body {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  .tips-text{
+      margin-top:20px;
+      background-color:black;
+      opacity:0.9;
+      padding:20px;
+      text-align: center;
+  }
+
+  .tips-text:hover{
+      cursor: pointer;
+      opacity:1;
+      transition: 1s;
+  }
+
+  .tips-text a{
+      color:white;
+  }
+
+  .tips-text a:hover{
+    text-decoration:none;
+  }
