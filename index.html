@@ -45,51 +45,38 @@
 
     <main>
         <section>
-            <!-- slider container -->
-            <div class="slider-container">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="slides fade">
-                    <img src="images/slide1.jpg" style="width:100%">
-                    <div class="text">
-                        <h1>Avani To Host UB Students</h1>
-                        <p>Get in touch with Gaborone your way. Explore the city. Live it up at the casino. Sweat it out
-                            over a game of tennis or squash. </p>
-                    </div>
-
-                </div>
-
-                <div class="slides fade">
-                    <img src="images/slide2.jpg" style="width:100%">
-                    <div class="text">
-                        <h1>Our Botswana Our Pride</h1>
-                        <p>landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal
-                            habitat during the seasonal floods. </p>
-                    </div>
-                </div>
-
-                <div class="slides fade">
-                    <img src="images/slide3.jpg" style="width:100%">
-                    <div class="text">
-                        <h1>Tech Park Ga E Fele?</h1>
-                        <p>landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal
-                            habitat during the seasonal floods. </p>
-                    </div>
-                </div>
-
-                <!-- forward and back buttons -->
-                <a class="back" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-
-            <!-- The bullets/circles -->
-            <div style="text-align:center">
-                <span class="bullet" onclick="currentSlide(1)"></span>
-                <span class="bullet" onclick="currentSlide(2)"></span>
-                <span class="bullet" onclick="currentSlide(3)"></span>
-            </div>
+                <div class="slider-wrapper">
+                        <div class="slider">
+                          <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
+                          <div class="slide">
+                            <figure class="slide-figure">
+                              <img class="slide-img" src="images/slide1.jpg" />
+                              <figcaption class="slide-caption"><p>...</p></figcaption>
+                            </figure><!-- .slide-figure -->
+                          </div><!-- .slide -->
+                          <input type="radio" name="slider" class="trigger" id="two" />
+                          <div class="slide">
+                            <figure class="slide-figure">
+                              <img class="slide-img" src="images/slide2.jpg" />
+                              <figcaption class="slide-caption"><p>...</p></figcaption>
+                            </figure><!-- .slide-figure -->
+                          </div><!-- .slide -->
+                          <input type="radio" name="slider" class="trigger" id="three" />
+                          <div class="slide">
+                            <figure class="slide-figure">
+                              <img class="slide-img" src="images/slide3.jpg" />
+                              <figcaption class="slide-caption"><p>...</p></figcaption>
+                            </figure><!-- .slide-figure -->
+                          </div><!-- .slide -->
+                        </div><!-- .slider -->
+                        <ul class="slider-nav">
+                          <li class="slider-nav__item"><label class="slider-nav__label" for="one">1</label></li>
+                          <li class="slider-nav__item"><label class="slider-nav__label" for="two">2</label></li>
+                          <li class="slider-nav__item"><label class="slider-nav__label" for="three">3</label></li>
+                        </ul><!-- .slider-nav -->
+                      </div><!-- .slider-wrapper -->
         </section>
+        <br><br><br><br>
 
         <section style="width:90%;margin:auto">
         <div class="row">
