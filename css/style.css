@@ -140,10 +140,10 @@ img {
 .slide-caption {
   position: absolute;
   bottom: 30%;
-  width: calc(100% - 1rem);
+
   color: white;
-  text-align: center;
-  left: 50%;
+  text-align: right;
+  left: 5%;
 }
 
 .trigger:checked + .slide {
@@ -173,6 +173,27 @@ img {
   color: white;
   cursor: pointer;
   transition: background-color .25s, color .25s ease-in-out;
+}
+
+#list{
+    list-style-type: none;
+}
+
+#list li a{
+    background-color: rgb(74, 62, 62);
+    margin:5px;
+    display: block;
+    text-align: center;
+    padding:12px;
+    text-decoration: none;
+    color:white;
+    opacity:0.8;
+}
+
+#list li a:hover{
+transition: 1s;
+background-color: transparent;
+opacity:1;
 }
 
 .slider-nav__label:hover,
